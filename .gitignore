@@ -152,5 +152,7 @@ xcuserdata/
 /*.gcno
 **/xcshareddata/WorkspaceSettings.xcsettings
 node_modules/
+.idea/
+build/
 
 # End of https://www.toptal.com/developers/gitignore/api/webstorm,xcode,visualstudiocode

@@ -2,8 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+// import App from './Pie';
+// import App from './Bar';
 import reportWebVitals from './reportWebVitals';
+import axios from 'axios';
 
+axios.defaults.baseURL = 'https://api.covidtracking.com/v1/us'
+axios.defaults.headers.common['Content-Type'] = 'application/json'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
